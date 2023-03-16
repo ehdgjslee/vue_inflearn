@@ -1,5 +1,5 @@
 # vue_inflearn
-#### 참조
+#### 출처
 - **해당 코드는 인프런에 있는 캡틴판교님의 강좌에 나오는 코드입니다.**
 - [인프런 캡틴판교 강의](https://www.inflearn.com/course/age-of-vuejs/dashboard)
 ------------------

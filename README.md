@@ -42,4 +42,6 @@
 7. chore : 빌드 업무 수정, 패키지 매니저 수정
 -------------------
 #### 깃 명령어
-1. git remote -v : 깃 레퍼지토리 확
+1. git remote -v : 깃 레퍼지토리 확인
+2. git config --global user.email "email@sample.com" : git 이메일 주소 설정
+3. git config --global user.name "name" : git 사용자주소 설정

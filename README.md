@@ -40,8 +40,8 @@
 5. git branch : git branch 확인
 6. git push 
     ```
-    - git init
-    - git add . or git add [파일명]
+    - git init 
+    - git add .(전체파일) or git add [파일명]
     - git commit -m [커밋메시지]
-    - git push origin main
+    - git push
     ```

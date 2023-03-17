@@ -12,8 +12,8 @@
     </style>
 </head>
 <body>
-    <div id="app">
-        <p v-bind:class="{ warngin: isError}">hello</p>
+    <div id="app">    
+        <p v-bind:class="errowTextColor">hello</p>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
     <script>
@@ -22,6 +22,11 @@
             data: {
                 isError: false
             },
+            computed: {
+                errowTextColor: function() {
+                    return this.isError ? "warning" : null;
+                }
+            }
         })
     </script>
 </body>

@@ -45,16 +45,17 @@
 #### 깃 명령어
 
 1. git remote -v : 깃 레퍼지토리 확인
-2. git config --global user.email "email@sample.com" : git 이메일 주소 설정
-3. git config --global user.name "name" : git 사용자주소 설정
-4. git branch -m [브랜치명] [새로운 브랜치명] : git branch 명 변경
-5. git branch : git branch 확인
-6. git push
+2. git remote add origin [레퍼지토리 주소] : 깃 레퍼지토리 
+3. git config --global user.email "email@sample.com" : git 이메일 주소 설정
+4. git config --global user.name "name" : git 사용자주소 설정
+5. git branch -m [브랜치명] [새로운 브랜치명] : git branch 명 변경
+6. git branch : git branch 확인
+7. git push
    ```
    - git init
    - git add .(전체파일) or git add [파일명]
    - git commit -m [커밋메시지]
    - git push
    ```
-7. git reset HEAD : git add 전체 취소
-8. git status : git add 상태 확인
+8. git reset HEAD : git add 전체 취소
+9. git status : git add 상태 확인
